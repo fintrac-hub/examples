@@ -1,0 +1,9 @@
+job:
+  runModel:
+
+    inputs:
+      # Dynamic inputs for local jobs need a file format with schema information
+      source_data: "inputs/loan_final313_100.parquet"
+
+    outputs:
+      source_data_schema: "outputs/dynamic_io/source_data_schema.csv"
