@@ -1,0 +1,13 @@
+
+job:
+  runModel:
+
+    parameters:
+      filter_column: "fruit"
+      filter_value: "apple"
+
+    inputs:
+      sample_input: "inputs/categorical_data.parquet"
+
+    outputs:
+      sample_output: "outputs/categorical_data/sample_output.parquet"
